@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&family=Source+Sans+Pro:wght@200&family=Zen+Loop:ital@0;1&display=swap');
+
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10vw;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+h2 a {
+    text-decoration: none;
+    color: white;
+}
+
+h2 a:hover {
+    color: antiquewhite;
+    text-decoration: underline;
+}
+
+body {
+    font-family: 'Zen Loop';
+    font-size: 3em;
+}
+
+section.parallax01 {
+    background-image: url(imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.parallax02 {
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section > p {
+    padding-left: 20px;
+}
+
+.realce {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 8px;
+}
+
+footer > p {
+    margin: 0px;
+}
+
+footer a {
+    color:rgb(219, 199, 171);
+    text-decoration: none;
+}
+footer a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}

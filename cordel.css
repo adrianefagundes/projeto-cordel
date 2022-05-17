@@ -13,25 +13,29 @@ h1 {
     padding-top: 20px;
 }
 
-h2 {
+header > p {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
     padding-bottom: 20px;
 }
 
-h2 a {
-    text-decoration: none;
+header > p a {
     color: white;
+    text-decoration: none;
 }
 
-h2 a:hover {
+header > p a:hover {
     color: antiquewhite;
+    font-weight: bold;
     text-decoration: underline;
 }
 
-body {
+section {
     font-family: 'Zen Loop';
     font-size: 3em;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 20px;
 }
 
 section.parallax01 {
@@ -40,6 +44,7 @@ section.parallax01 {
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.4);
 }
 
 section.parallax02 {
@@ -48,15 +53,15 @@ section.parallax02 {
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.612);
 }
 
-section > p {
-    padding-left: 20px;
-}
-
-.realce {
+section.parallax01 > p, section.parallax02 > p {
+    background-color: rgba(0, 0, 0, 0.612);
     color: white;
-    background-color: rgba(0, 0, 0, 0.507);
+    text-shadow: 1px 1px 0px black;
+    width: 400px;
+    border-radius: 10px;
 }
 
 footer {
